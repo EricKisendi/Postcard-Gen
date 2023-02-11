@@ -1,0 +1,52 @@
+.form{
+    display: grid;
+    gap:10px;
+    grid-template: 40px 2px / 1fr 1fr;
+}
+.buttoninput{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    width: 80%;
+    padding: .5em;
+    border-radius: 6px;
+    border:none;
+    transition: .5s;
+}
+.buttoninput:hover{
+    background-color: #B6E388;
+    cursor: pointer;
+}
+main{
+    padding: 25px;
+}
+.input1 ,.input2{
+    text-indent: 5px;
+    border-radius: 6px;
+    border: 1px solid rgb(194, 178, 178);
+}
+.con{
+    font-size: large;
+    color: blue;
+}
+.Image{
+    max-width: 100%;
+    margin-top: 20px;
+    border-radius: 4px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+.Image:hover{
+    transition: .3s;
+    box-shadow: 2px 1px 10px #0f0e0e;
+}
+.memer{
+    position: relative;
+}
+.Topper{
+    position: absolute;
+    top: 8px;
+    left: 16px;
+}

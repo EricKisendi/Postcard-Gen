@@ -1,0 +1,10 @@
+input{
+    margin: .3rem;
+    border-radius: .4rem;
+    padding: .13rem;
+}
+textarea{
+    padding: .12em;
+    border-radius: .4rem;
+    margin: .3rem;
+}
